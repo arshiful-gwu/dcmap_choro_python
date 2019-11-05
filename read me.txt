@@ -1,0 +1,23 @@
+i created a dummy csv file with neightborhood clusters in one column and income data in another 
+income data i generated in excel using random(1 to 100)
+
+went to open data dc and downloaded the geojson file of washington dc
+
+i added few more clusters in the csv file itself (cluster 40 to 46) because the 
+geojson file had these clusters and this had to be done to align the data with
+map data
+
+imported the data.csv file
+imported the json file
+
+imported some required libraries
+
+initialised the folium choropleth map as dcmap
+
+added all the required arguments/ parameters required to rneder the map
+
+added layer control (whag this does is it takes the minimum and maximum income
+chops it into some intervals according to the the fill color palete bin)
+
+saved the map in an html file
+
