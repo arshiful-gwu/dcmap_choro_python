@@ -14,9 +14,9 @@ imported some required libraries
 
 initialised the folium choropleth map as dcmap
 
-added all the required arguments/ parameters required to rneder the map
+added all the required arguments/ parameters required to render the map
 
-added layer control (whag this does is it takes the minimum and maximum income
+added layer control (what this does is it takes the minimum and maximum income
 chops it into some intervals according to the the fill color palete bin)
 
 saved the map in an html file
